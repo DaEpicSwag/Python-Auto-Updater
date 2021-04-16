@@ -16,7 +16,7 @@ with progressbar.ProgressBar(max_value=10) as bar:
         time.sleep(2)
         bar.update(i)
 #YOU MUST HAVE YOUR OWN FTP SERVER/ CDN, YOU CAN USE DISCORDS CDN ALSO
-url = 'http://software2life.com/zip/sonicFTP/update.zip'
+url = 'your .zip file cdn'
 
 
 r = requests.get(url, stream=True)
